@@ -1,0 +1,10 @@
+{
+  "name": "Fraud Detection ML",
+  "image": "mcr.microsoft.com/devcontainers/python:1-3.12-bullseye",
+  "postCreateCommand": "pip install -r requirements.txt",
+  "forwardPorts": [8000, 8501],
+  "portsAttributes": {
+    "8000": {"label": "FastAPI"},
+    "8501": {"label": "Streamlit dashboard"}
+  }
+}

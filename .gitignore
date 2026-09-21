@@ -1,0 +1,22 @@
+.venv/
+.venv-llm/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Local datasets and generated model inputs/outputs (can be regenerated locally).
+data/**/*.csv
+artifacts/*
+!artifacts/.gitkeep
+
+# Local build, chart, report, and runtime output.
+.chart-data-*/
+.pptx-build*/
+output/
+tmp/
+deliverables/
+
+# Editor and backup files.
+*.backup
+.DS_Store
+Thumbs.db

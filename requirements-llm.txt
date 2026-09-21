@@ -1,0 +1,8 @@
+# Optional. Keep this separate from requirements.txt; it is not needed for fraud scoring.
+torch
+transformers>=4.46
+datasets>=3.0
+peft>=0.18
+accelerate>=1.0
+# Install bitsandbytes on Ubuntu/WSL2 with NVIDIA CUDA for the --load-in-4bit QLoRA option.
+bitsandbytes>=0.45

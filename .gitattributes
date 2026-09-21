@@ -1,0 +1,10 @@
+# Keep text files consistently stored with LF; Windows checkouts use Git's configured conversion.
+* text=auto
+
+# Preserve binary artifacts if they are ever intentionally versioned.
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.pdf binary
+*.pptx binary
+*.pkl binary
